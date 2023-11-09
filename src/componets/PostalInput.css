@@ -1,0 +1,59 @@
+.App {
+    background: #3494E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 400px;
+  }
+  
+  .glass-form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-left: 29rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(44, 40, 40, 0.2);
+    box-shadow: 0 4px 12px rgba(82, 77, 77, 0.1);
+  }
+  
+  .glass-input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .glass-button {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 115px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .glass-button:hover {
+    background: rgba(2, 53, 221, 0.3);
+  }

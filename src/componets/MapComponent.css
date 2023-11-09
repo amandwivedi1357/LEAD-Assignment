@@ -1,0 +1,46 @@
+.map{
+    display: flex;
+    border-radius: 20px;
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+
+.glass {
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+  
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 10rem;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .glass p {
+   
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.error>img{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    width: 20%;
+    border-radius: 20px;
+}
+
+/* @media only screen and (max-width: 768px){
+    .map{
+        display: flex;
+        flex-direction: column;
+    }
+} */
